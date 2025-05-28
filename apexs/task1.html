@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            padding: 20px;
+        }
+        h1 {
+            color: #0066cc;
+        }
+        p {
+            line-height: 1.6;
+        }
+        img {
+            margin-top: 10px;
+            border-radius: 8px;
+            width: 150px;
+            height: auto;
+        }
+        a {
+            color: #ff6600;
+            text-decoration: none;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Webpage</h1>
+    <p>This is a simple webpage created using HTML. It includes styling with CSS and a basic interaction using JavaScript.</p>
+    
+    <img src="apex.jpg" alt="Sample Image">
+    
+    <p>Visit <a href="https://www.example.com" target="_blank"> Website</a> for more resources.</p>
+    
+    <button onclick="showMessage()">Click Me!</button>
+
+    <script>
+        function showMessage() {
+            alert('Hello! This is your first JavaScript interaction.');
+        }
+    </script>
+</body>
+</html>
